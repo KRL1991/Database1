@@ -1,0 +1,17 @@
+INSERT INTO OPSKRIFTER (NAME, FREMGANSMÅDE,BILLEDE)
+VALUES('LAKS','STEG LAKS PÅ SKIND SIDEN','laks.png)
+
+SELECT * FROM Ingredientser ORDER BY Navn
+
+UPDATE Maaleenheder SET Enhed = 'Units' WHERE Enhed = 'grams'
+
+UPDATE Maaleenheder SET Enhed = 'grams' where Enhed
+
+DELETE FROM Opskrifter where Billede = 'laks.png'
+
+SELECT * FROM Opskrifter ORDER BY Navn
+
+SELECT * FROM Ingredientser ORDER BY Naeringsindhold
+
+
+
